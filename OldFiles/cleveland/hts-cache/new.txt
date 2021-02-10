@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+11:26:46	698/698	---M--	403	error ('Forbidden')	text/html	date:Wed,%2010%20Feb%202021%2005:56:45%20GMT	http://demo.auburnforest.com/html/medcare/medcare/index.html	D:/Lamhouse/Cleveland/Cleveland/demo.auburnforest.com/html/medcare/medcare/index.0.delayed	(from )
+11:26:46	707/707	---M--	404	error ('Not%20Found')	text/html	date:Wed,%2010%20Feb%202021%2005:56:45%20GMT	http://demo.auburnforest.com/robots.txt		(from )
