@@ -136,9 +136,9 @@
 			loop:true,
 			margin:0,
 			nav:true,
-			smartSpeed: 500,
-			autoplay: 6000,
-			autoplayTimeout:700000,
+			smartSpeed: 1000,
+			autoplay: 9000,
+			autoplayTimeout:9000,
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
@@ -250,7 +250,7 @@
 	if ($('.variable-text').length) {
 		
 		$('.variable-text').typeIt({
-			 strings: ["Medcare"],
+			 strings: ["Neurocare"],
 			 speed: 650,
 			 breakLines: true,
 			 loop:true,
@@ -258,7 +258,7 @@
 		});	
 	}
 	
-	
+
 	
 	//Custom Seclect Box
 	if($('.custom-select-box').length){

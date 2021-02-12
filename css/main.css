@@ -1,4 +1,4 @@
-/* MedCare Medical HTML Template */
+/* Cleveland Neuro Care Medical HTML Template */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -210,7 +210,7 @@ img{
 	font-weight: 500;
 	overflow: hidden;
 	border-radius:50px;
-	background-color: #5153ff;
+	background-color: #009ca5;
 	text-transform: capitalize;
 }
 
@@ -283,7 +283,7 @@ img{
     height: 100%;
     z-index: 1;
     opacity: 0;
-    background-color: #5153ff;
+    background-color: #009ca5;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -672,7 +672,7 @@ img{
 
 .scroll-to-top:hover{
 	color:#ffffff;
-	background:#5153ff;
+	background:#009ba4;
 }
 
 /*** 
@@ -691,7 +691,7 @@ img{
 
 .sec-title .title{
 	position:relative;
-	color:#5153ff;
+	color:#009ba4;
 	font-size:16px;
 	font-weight:500;
 	text-transform:capitalize;
@@ -982,7 +982,7 @@ img{
 	padding:6px 25px;
 	font-weight:400;
 	border-radius:50px;
-	background-color:#5153ff;
+	background-color:#009ba4;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -1194,7 +1194,7 @@ img{
 
 .main-header .header-upper .logo-box .logo{
 	position:relative;
-	padding:5px 0px;
+	padding:15px 0px;
 	transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
@@ -2275,6 +2275,28 @@ img{
 	transition-delay: 300ms;
 }
 
+.slider-section .image-column .inner-column .image1{
+	position:relative;
+	opacity: 0;
+    transform: scaleX(0);
+    transform-origin: center top;
+    -webkit-transition: all 1000ms ease;
+	-moz-transition: all 100ms ease;
+	-ms-transition: all 1000ms ease;
+	-o-transition: all 1000ms ease;
+	transition: all 1000ms ease;
+}
+
+.slider-section .active .image-column .inner-column .image1{
+	opacity: 1;
+	transform: scaleX(1);
+	-webkit-transition-delay: 300ms;
+	-moz-transition-delay: 300ms;
+	-ms-transition-delay: 300ms;
+	-o-transition-delay: 300ms;
+	transition-delay: 300ms;
+}
+
 .slider-section .image-column .inner-column {
     position: relative;
 }
@@ -2299,7 +2321,7 @@ img{
 .call-to-action-section{
 	position:relative;
 	padding:28px 0px 25px;
-	background-color:#5153ff;
+	background-color:#009ca5;
 }
 
 .call-to-action-section.style-two{
@@ -2315,10 +2337,11 @@ img{
 .call-to-action-section .appointment{
 	position:relative;
 	color:#ffffff;
-	font-size:36px;
-	font-weight:400;
+	font-size:24px;
+	font-weight:700;
 	line-height:1.3em;
 	font-family: 'Roboto', sans-serif;
+	
 }
 
 .call-to-action-section .appointment .icon{
@@ -2326,13 +2349,110 @@ img{
 	color:#ffffff;
 	margin-right:18px;
 	font-size:28px;
+	
 }
+
+.call-block{
+	position:relative;
+	margin-bottom:20px;
+	max-width:400px;
+	
+	
+}
+
+.call-block .inner-box{
+	position:relative;
+	text-align:center;
+	border-radius:7px;
+	padding:10px 0 25px 32px;	
+	/*box-shadow:0px 20px 25px rgba(0,0,0,0.05);*/
+	height:250px;
+}
+
+.call-block .inner-box .icon-box{
+	position:relative;
+	width:65px;
+	height:65px;
+	color:#009ba4;
+	font-size:28px;
+	line-height:65px;
+	text-align:center;
+	margin:0 auto;
+	border-radius:50px;
+	background-color:#d4f9f9;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.call-block .inner-box .icon-box .icon{
+	position:relative;
+}
+
+.call-block .inner-box:hover .icon-box{
+	transform:rotateY(360deg);
+}
+
+.call-block .inner-box h4{
+	position:relative;
+	font-weight:700;
+	line-height:1.3em;
+	margin-top:25px;
+	color:#fff;
+}
+
+.call-block .inner-box h4 a{
+	position:relative;
+	color:#fff;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.call-block .inner-box:hover h4 a{
+	color:#fff;
+}
+
+.call-block .inner-box .text{
+	position:relative;
+	color:#fff;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.9em;
+	margin-top:15px;
+}
+.call-block .inner-box .text a{	
+	color:#fff;	
+}
+
+
 
 .call-to-action-section .phone{
 	position:relative;
 	color:#ffffff;
-	font-size:36px;
-	font-weight:700;
+	font-size:24px;
+	font-weight:400;
+	line-height:1.3em;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.call-to-action-section .email{
+	position:relative;
+	color:#ffffff;
+	font-size:24px;
+	font-weight:400;
+	line-height:1.3em;
+	font-family: 'Roboto', sans-serif;
+}
+.call-to-action-section .location{
+	position:relative;
+	color:#ffffff;
+	font-size:24px;
+	font-weight:400;
 	line-height:1.3em;
 	font-family: 'Roboto', sans-serif;
 }
@@ -2831,7 +2951,7 @@ img{
 	height:64px;
 	text-align:center;
 	border-radius:50px;
-	border:2px solid #5153ff;
+	border:2px solid #009ba4;
 	transition: all 600ms ease;
     -moz-transition: all 600ms ease;
     -webkit-transition: all 600ms ease;
@@ -2857,8 +2977,8 @@ img{
 	line-height:26px;
 	border-radius:50px;
 	margin:4px 3px 3px 4px;
-	border:11px solid #cfd2fc;
-	background-color:#5153ff;
+	border:11px solid #d4f9f9;
+	background-color:#009ba4;
 }
 
 .service-block-two .inner-box h4{
@@ -3156,7 +3276,7 @@ img{
 }
 
 .team-block .inner-box:hover .image .overlay-box{
-	background-color:rgba(81,83,255,0.50);
+	background-color:rgba(0,155,164,0.50);
 }
 
 .team-block .inner-box .image .overlay-box .content{
@@ -3183,7 +3303,7 @@ img{
 
 .team-block .inner-box .image .overlay-box .content .designation{
 	position:relative;
-	color:#5153ff;
+	color:#009ba4;
 	font-size:16px;
 	line-height:1.3em;
 	margin-top:8px;
@@ -3530,9 +3650,9 @@ img{
 
 .news-block .inner-box .lower-content .read-more{
 	position:relative;
-	color:#5153ff;
+	color:#009ba4;
 	font-weight:500;
-	border-bottom:1px solid #5153ff;
+	border-bottom:1px solid #009ba4;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
@@ -3666,7 +3786,7 @@ img{
 	position:relative;
 	font-size:60px;
 	line-height:1em;
-	color:#4788c7;
+	color:#009ba4;
 	margin-top:-29px;
 	display:inline-block;
 }
@@ -3833,7 +3953,7 @@ img{
 	bottom:0px;
 	height:2px;
 	width:35px;
-	background-color:#5153ff;
+	background-color:#009ba4;
 }
 
 .main-footer .logo-widget{
@@ -3892,7 +4012,7 @@ img{
 }
 
 .main-footer .links-widget li a:hover{
-	color:#1541e1;
+	color:#009ba4;
 }
 
 .main-footer .footer-bottom{

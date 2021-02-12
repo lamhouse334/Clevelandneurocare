@@ -25,6 +25,34 @@
     -o-animation-timing-function: linear;
 }
 
+.company-section-two .image-column .inner-column-one .pattern-layer-two{
+    animation-name: zoomInStable; 
+    animation-duration: 6s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  
+  -webkit-animation-name: zoomInStable; 
+    -webkit-animation-duration: 6s; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+  
+  -moz-animation-name: zoomInStable; 
+    -moz-animation-duration: 6s; 
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+  
+  -ms-animation-name: zoomInStable; 
+    -ms-animation-duration: 6s; 
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: linear;
+  
+  -o-animation-name: zoomInStable; 
+    -o-animation-duration: 6s; 
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+}
+
+
 .services-section-two .inner-container .pattern-layer-two{
     animation-name: zoomInStable; 
     animation-duration: 3s; 
