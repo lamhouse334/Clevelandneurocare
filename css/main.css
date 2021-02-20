@@ -2544,6 +2544,7 @@ img{
 	margin-top:25px;
 }
 
+
 .service-block .inner-box h4 a{
 	position:relative;
 	color:#14193d;
@@ -2555,7 +2556,7 @@ img{
 }
 
 .service-block .inner-box:hover h4 a{
-	color:#5153ff;
+	color:#009ca5;
 }
 
 .service-block .inner-box .text{
@@ -2579,6 +2580,125 @@ img{
 }
 
 .service-block:nth-child(3) .inner-box:hover h4 a{
+	color:#f98f74;
+}
+
+/*** 
+
+====================================================================
+	aboutus Section
+====================================================================
+
+***/
+
+.aboutus-section{
+	position:relative;
+	padding:105px 0px 60px;
+}
+
+.aboutus-section.style-two{
+	padding-top:0px;
+}
+
+.aboutus-section.style-three{
+	background-color:#f6f7fb;
+	padding-bottom:80px;
+	overflow:hidden;
+}
+
+.aboutus-section.style-three .pattern-image{
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	background-repeat:repeat;
+}
+
+.aboutus-block{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.aboutus-block .inner-box{
+	position:relative;
+	text-align:center;
+	border-radius:7px;
+	padding:40px 35px 42px;
+	background-color:#ffffff;
+	box-shadow:0px 20px 25px rgba(0,0,0,0.05);
+	height: 475px;
+}
+
+.aboutus-block .inner-box .icon-box{
+	position:relative;
+	width:65px;
+	height:65px;
+	color:#ffffff;
+	font-size:28px;
+	line-height:65px;
+	text-align:center;
+	margin:0 auto;
+	border-radius:50px;
+	background-color:#5153ff;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.aboutus-block .inner-box .icon-box .icon{
+	position:relative;
+}
+
+.aboutus-block .inner-box:hover .icon-box{
+	transform:rotateY(360deg);
+}
+
+.aboutus-block .inner-box h4{
+	position:relative;
+	font-weight:700;
+	line-height:1.3em;
+	margin-top:25px;
+}
+
+
+.aboutus-block .inner-box h4 a{
+	position:relative;
+	color:#14193d;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.aboutus-block .inner-box:hover h4 a{
+	color:#009ca5;
+}
+
+.aboutus-block .inner-box .text{
+	position:relative;
+	color:#4e4f51;
+	font-size:16px;
+	line-height:1.9em;
+	margin-top:15px;
+}
+
+.aboutus-block:nth-child(2) .inner-box .icon-box{
+	background-color:#50d5a0;
+}
+
+.aboutus-block:nth-child(2) .inner-box:hover h4 a{
+	color:#50d5a0;
+}
+
+.aboutus-block:nth-child(3) .inner-box .icon-box{
+	background-color:#f98f74;
+}
+
+.aboutus-block:nth-child(3) .inner-box:hover h4 a{
 	color:#f98f74;
 }
 
@@ -2630,7 +2750,7 @@ img{
 .about-section.style-two .content-column .inner-column .text{
 	position:relative;
 	color:#4e4f51;
-	font-size:16px;
+	font-size:18px;
 	line-height:1.9em;
 	margin-top:10px;
 }
@@ -2667,6 +2787,54 @@ img{
 
 /*** 
 
+====================================================================
+	Tab Section
+====================================================================
+
+***/
+.tab-section{
+	position:relative;
+	padding:60px 0px 40px;
+	
+}
+
+.tab-section ul li{
+	position:relative;
+	
+}
+
+.tab-section ul li a{
+	color:#009ca5;
+	font-size:18px;
+	font-weight:500;
+	
+}
+.tab-section .tab-content .active{
+	display:block;
+}
+
+.tab-section .tab-content h3{
+	font-size:16px;
+	font-weight:500;
+	padding:20px 0px;
+	color:#222;
+}
+
+.tab-section .tab-content p{
+	font-size:16px;
+	padding:5px 0px;
+	color:#4e4f51;
+	
+}
+.tab-section .space{
+	padding:0 20px;
+}
+
+
+
+
+
+/***
 ====================================================================
 	Help Section
 ====================================================================
@@ -3014,7 +3182,7 @@ img{
 }
 
 .service-block-two .inner-box:hover h4 a{
-	color:#5153ff;
+	color:#009ca5;
 }
 
 .services-section-three .service-block-two:nth-child(1) .inner-box .number-box{
@@ -4340,7 +4508,7 @@ img{
 
 .about-section-two{
 	position:relative;
-	padding:20px 0px 0px;
+	padding:80px 0px 0px;
 }
 
 .about-section-two .content-column{
@@ -4350,7 +4518,7 @@ img{
 
 .about-section-two .content-column .inner-column{
 	position:relative;
-	padding-top:90px;
+	padding-top:0px;
 }
 
 .about-section-two .content-column h2{
@@ -4370,7 +4538,7 @@ img{
 	color:#4e4f51;
 	font-size:16px;
 	line-height:1.8em;
-	margin-bottom:20px;
+	
 }
 
 .about-section-two .content-column .text p:last-child{
