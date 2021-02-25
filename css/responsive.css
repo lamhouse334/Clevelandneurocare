@@ -867,10 +867,28 @@
 	border-radius:0px;
 	color:#ffffff;
 }
+.main-header .header-upper .logo-box{
+	display: block;
+	float: left;
+}
 
 .main-header .header-top .info-list{
 	background-color:#fff;
 	
+}
+.main-header .header-top .info-list li{
+	background-color:#fff;
+	display: block;
+	float:left;
+}
+
+.main-header .header-top .info-list li span{
+	font-size:12px;
+	font-weight: 500;
+}
+
+.main-header .header-top .info-list li a{
+	font-size:12px;
 }
 	
 }

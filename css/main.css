@@ -3581,6 +3581,206 @@ img{
 
 /*** 
 
+/***
+
+====================================================================
+	cts Section
+====================================================================
+
+***/
+
+.cts-section{
+	position:relative;
+	padding:40px 0px 60px;
+}
+
+.cts-block{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.cts-block .inner-box{
+	position:relative;
+	overflow:hidden;
+	border-radius:10px;
+	max-width:100%;
+	height:auto;
+	background:#f6f7fb;
+	padding:30px;
+}
+.cts-block .inner-box p{
+	font-size:18px;	
+	font-style: italic;
+	color:#222;
+	
+}
+
+.cts-block .inner-box .icon-box{
+	margin-top:20px; 
+position:relative;
+	width:65px;
+	height:65px;
+	color:#009ba4;
+	font-size:28px;
+	line-height:65px;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:50px;
+	background-color:#d4f9f9;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+
+}
+.cts-block .inner-box .icon-box .icon{
+	position:relative;
+}
+
+.cts-block .inner-box:hover .icon-box{
+	transform:rotateY(360deg);
+}
+.cts-block .inner-box h4{
+	position:relative;
+	font-weight:700;
+	line-height:1.3em;
+	margin-top:25px;
+	color:#009ba4;
+	text-align:center;
+	
+}
+
+.cts-title{
+	position:relative;
+	z-index:1;
+	margin-bottom:40px;
+}
+
+.cts-title .text{
+	position:relative;
+	color:#4e4f51;
+	font-size:16px;
+	line-height:1.8em;
+	margin-top:20px;
+	padding:10px;
+}
+
+.cts-title.centered{
+	text-align: center !important;
+}
+
+.cts-section.style-two{
+	padding-top:40px;
+}
+
+.cts-section.style-two .image-column .image{
+	position:relative;
+	overflow:hidden;
+	border-radius:8px;
+}
+
+.cts-section .content-column{
+	position:relative;
+	margin-bottom:40px;
+}
+
+.cts-section .content-column .inner-column{
+	position:relative;
+}
+
+.cts-section .content-column .sec-title{
+	margin-bottom:20px;
+}
+
+.cts-section .content-column .sec-title .text{
+	max-width:550px;
+}
+
+.cts-section .content-column .button-box{
+	position:relative;
+	margin-top:25px;
+}
+
+.cts-section.style-two .content-column .inner-column .text{
+	position:relative;
+	color:#4e4f51;
+	font-size:18px;
+	line-height:1.9em;
+	margin-top:10px;
+}
+
+.cts-section .image-column{
+	position:relative;
+	margin-bottom:40px;
+}
+
+.cts-section .image-column .inner-column{
+	position:relative;
+	margin-left:-60px;
+}
+
+.cts-section .image-column .inner-column .pattern-image{
+	position:absolute;
+	right:-40px;
+	top:-50px;
+	width:620px;
+	height:531px;
+	z-index:-1;
+	background-repeat:no-repeat;
+}
+
+.cts-section .image-column .image{
+	position:relative;
+}
+
+.cts-section .image-column .image img{
+	position:relative;
+	width:100%;
+	display:block;
+}
+
+.cts-section .list-style-one{
+	position:relative;
+	z-index:1;
+}
+
+.diagnosis{	
+	margin-top:10px;
+}
+
+.cts-section .list-style-one li{
+	position:relative;
+	color:#4e4f51;
+	font-size:16px;
+	font-weight:400;
+	margin-bottom:10px;
+	padding-left:30px;
+	line-height:1.8em;
+}
+
+.cts-section .list-style-one li h4{	
+	color:#4e4f51;
+	font-size:24px;
+	font-weight:500;	
+	padding-left:10px;
+	
+}
+
+.cts-section .list-style-one li:before{
+	position:absolute;
+	left:0px;
+	top:6px;
+	width:16px;
+	height:16px;
+	content:'';
+	display:block;
+	background:url(../images/icons/dott.png) no-repeat;
+}
+
+/***
+
 ====================================================================
 	Appointment Section
 ====================================================================
