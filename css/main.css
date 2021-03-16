@@ -3513,7 +3513,7 @@ img{
 }
 
 .team-block .inner-box:hover .image .overlay-box{
-	background-color:rgba(0,155,164,0.50);
+	background-color:rgba(0,0,0,0.50);
 }
 
 .team-block .inner-box .image .overlay-box .content{
@@ -3623,7 +3623,7 @@ img{
 }
 
 .team-block.style-three .inner-box:hover .image .overlay-box{
-	background-color:rgba(81,83,255,0.80);
+	background-color:rgba(0,156,165,0.80);
 }
 
 .team-section.style-three{
@@ -3633,7 +3633,7 @@ img{
 
 .team-section.style-three .owl-nav .owl-prev:hover,
 .team-section.style-three .owl-nav .owl-next:hover{
-	background-color:#5153ff;
+	background-color:#009ca5;
 }
 
 .team-section.style-four{
@@ -5945,6 +5945,7 @@ position:relative;
 	position:relative;
 	padding:0px 30px 30px;
 	background-color:#f6f7fb;
+	height:300px;
 }
 
 .testimonial-block .inner-box .quote{
