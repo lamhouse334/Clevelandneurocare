@@ -5,8 +5,8 @@ if(isset($_POST['submit'])){
 	$phone = $_POST['phone'];
 	$msg = $_POST['msg'];
 	
-	$to = 'ravindhar66@gmail.com';
-	$subject = 'Form Submission';
+	$to = 'gopi9991@gmail.com';
+	$subject = 'Contact Form Message';
 	$message = "Name: ".$name."\n"."Phone: ".$phone."\n". "Wrote the following: "."\n\n".$msg;
 	$headers = "From: ".$email;
 	
