@@ -2872,6 +2872,7 @@ img{
 }
 .tab-section .tab-content .active{
 	display:block;
+	
 }
 
 .tab-section .tab-content h3{
@@ -2888,7 +2889,7 @@ img{
 	
 }
 .tab-section .space{
-	padding:0 20px;
+	padding:0 0px;
 }
 
 
@@ -3555,6 +3556,7 @@ img{
 .team-block .inner-box .image .overlay-box .content{
 	position:absolute;
 	left:30px;
+	right:30px;
 	bottom:100px;
 }
 
@@ -4191,7 +4193,7 @@ Facility section
 	overflow:hidden;
 	border-radius:10px;
 	max-width:100%;
-	height:130vh;
+	height:70vh;
 	background:#f6f7fb;
 	padding:20px;
 }
